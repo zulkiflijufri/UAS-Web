@@ -11,7 +11,7 @@ class Dosen extends Person {
 	private $tahun_masuk;
 
 	public function __construct($firstname, $lastname, $gender, $nidn, $jabatan_fungsional) {
-		parent::__construct();
+		parent::__construct($firstname, $lastname, $gender);
 		$this->nidn = $nidn;
 		$this->jabatan_fungsional = $jabatan_fungsional;
 	}
